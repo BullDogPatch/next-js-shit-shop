@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Product({ product }) {
   return (
-    <div className='text-center'>
+    <div className='text-center p-6'>
       <h2>{product.title}</h2>
       <div>
         <Image
